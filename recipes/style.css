@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(214, 196, 163);
+}
+h1 { 
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: orangered;
+    padding: 5px;
+}
+img{
+    height: 450px;
+    width: 480px;
+    padding: 15px;
+    border-radius: 100px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    color: rgba(255, 68, 0, 0.744);
+    font-size: 32px;
+    padding: 10px;
+    font-family: "Fira Sans", sans-serif;
+    border-bottom: 1px solid orange;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+
+p{
+    line-height: 1.6;
+    letter-spacing: 1px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 10px;
+}
+li{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 13px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 400px;
+    justify-content: center;
+    overflow: hidden;
+}
+ul > li{
+    margin: 15px;
+}
+ol{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+ol > li {
+    margin: 10px;
+}
+
+.lasagna{
+    height: 420px;
+    width: 580px;
+}
